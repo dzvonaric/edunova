@@ -1,0 +1,249 @@
+body {
+  background: #ffffff;
+  color: #111111;
+}
+
+.app-shell {
+  min-height: 100vh;
+  padding: 18px 0 24px;
+}
+
+.app {
+  min-height: 500px;
+  padding-top: 22px;
+}
+
+.app-header {
+  align-items: center;
+  background: linear-gradient(135deg, #006ee6 0%, #19c4ff 100%);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 8px;
+  box-shadow: 0 14px 35px rgba(0, 110, 230, 0.22);
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 18px;
+}
+
+.brand-button {
+  align-items: center;
+  background: transparent;
+  border: 0;
+  color: #ffffff;
+  display: flex;
+  gap: 12px;
+  padding: 0;
+  text-align: left;
+}
+
+.brand-mark {
+  align-items: center;
+  background: rgba(255, 255, 255, 0.16);
+  border: 1px solid rgba(255, 255, 255, 0.28);
+  border-radius: 8px;
+  display: inline-flex;
+  font-weight: 800;
+  height: 42px;
+  justify-content: center;
+  width: 42px;
+}
+
+.brand-title,
+.brand-subtitle {
+  display: block;
+}
+
+.brand-title {
+  font-size: 19px;
+  font-weight: 800;
+  line-height: 1.1;
+}
+
+.brand-subtitle {
+  color: rgba(255, 255, 255, 0.76);
+  font-size: 13px;
+  margin-top: 3px;
+}
+
+.header-actions {
+  display: flex;
+  gap: 8px;
+}
+
+.hero-panel {
+  align-items: center;
+  background: rgba(255, 255, 255, 0.9);
+  border: 1px solid #bceaff;
+  border-radius: 8px;
+  display: grid;
+  gap: 24px;
+  grid-template-columns: 1fr 1fr;
+  padding: 34px;
+}
+
+.hero-title {
+  font-size: 42px;
+  font-weight: 800;
+  margin-bottom: 12px;
+}
+
+.hero-copy {
+  color: #222222;
+  font-size: 18px;
+  margin-bottom: 26px;
+  max-width: 620px;
+}
+
+.hero-image-card {
+  background: #031225;
+  border: 1px solid rgba(25, 196, 255, 0.45);
+  border-radius: 8px;
+  box-shadow: 0 18px 42px rgba(0, 110, 230, 0.24);
+  overflow: hidden;
+}
+
+.hero-image-card img {
+  display: block;
+  height: 420px;
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+}
+
+.mjerenje-card {
+  border: 1px solid #bceaff;
+  border-radius: 8px;
+  box-shadow: 0 10px 24px rgba(0, 110, 230, 0.1);
+}
+
+.mjerenje-table {
+  background: #ffffff;
+  border-color: #bceaff;
+}
+
+.mjerenje-table thead th {
+  background: #e7f7ff;
+  color: #0b2035;
+  font-size: 13px;
+}
+
+.desno {
+  text-align: right;
+}
+
+.parametar {
+  color: #222222;
+  font-size: 13px;
+}
+
+.app-footer {
+  border-top: 1px solid rgba(188, 234, 255, 0.45);
+  color: #111111;
+  font-size: 13px;
+  margin-top: 28px;
+  padding-top: 16px;
+}
+
+.btn-primary {
+  background: linear-gradient(135deg, #19c4ff 0%, #006ee6 100%);
+  border-color: #008de8;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+  background: linear-gradient(135deg, #3bd0ff 0%, #0078f0 100%);
+  border-color: #19c4ff;
+}
+
+.btn-outline-primary {
+  border-color: #008de8;
+  color: #0072d8;
+}
+
+.btn-outline-primary:hover,
+.btn-outline-primary:focus {
+  background: #0072d8;
+  border-color: #0072d8;
+}
+
+.badge.bg-success {
+  background-color: #008de8 !important;
+}
+
+.delete-modal-backdrop {
+  align-items: center;
+  background: rgba(3, 18, 37, 0.72);
+  backdrop-filter: blur(5px);
+  display: flex;
+  inset: 0;
+  justify-content: center;
+  padding: 20px;
+  position: fixed;
+  z-index: 1050;
+}
+
+.delete-modal {
+  background: #ffffff;
+  border: 1px solid #bceaff;
+  border-radius: 10px;
+  box-shadow: 0 24px 70px rgba(0, 17, 38, 0.35);
+  max-width: 420px;
+  padding: 28px;
+  text-align: center;
+  width: 100%;
+}
+
+.delete-modal-icon {
+  align-items: center;
+  background: linear-gradient(135deg, #19c4ff 0%, #006ee6 100%);
+  border-radius: 50%;
+  color: #ffffff;
+  display: inline-flex;
+  font-size: 28px;
+  height: 64px;
+  justify-content: center;
+  margin-bottom: 18px;
+  width: 64px;
+}
+
+.delete-modal h2 {
+  color: #0b2035;
+  font-size: 26px;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+
+.delete-modal p {
+  color: #516273;
+  margin-bottom: 24px;
+}
+
+.delete-modal-actions {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+}
+
+@media (max-width: 768px) {
+  .app-header,
+  .header-actions {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .hero-panel {
+    grid-template-columns: 1fr;
+    padding: 22px;
+  }
+
+  .hero-image-card img {
+    height: auto;
+  }
+
+  .hero-title {
+    font-size: 30px;
+  }
+
+  .delete-modal-actions {
+    flex-direction: column;
+  }
+}

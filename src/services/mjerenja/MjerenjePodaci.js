@@ -12,7 +12,7 @@ export const mjerenja = [
         kreiranAt: '2026-05-12T10:00:00.000Z',
 
              id: 'DEMO-002',
-        datum: '2026-05-12',
+        datum: '2026-05-13',
         temperatura: 23.4,
         ph: 7.5,
         tds: 190,
@@ -23,7 +23,7 @@ export const mjerenja = [
         kreiranAt: '2026-05-13T10:00:00.000Z',
 
           id: 'DEMO-003',
-        datum: '2026-05-12',
+        datum: '2026-05-14',
         temperatura: 21.4,
         ph: 6.5,
         tds: 190,
@@ -34,7 +34,7 @@ export const mjerenja = [
         kreiranAt: '2026-05-14T10:00:00.000Z',
 
         id: 'DEMO-004',
-        datum: '2026-05-12',
+        datum: '2026-05-15',
         temperatura: 26.4,
         ph: 8.1,
         tds: 220,
@@ -43,6 +43,17 @@ export const mjerenja = [
         orp: 215,
         napomena: 'Početno demo mjerenje.',
         kreiranAt: '2026-05-15T10:00:00.000Z',
+
+        id: 'DEMO-005',
+        datum: '2026-05-16',
+        temperatura: 27.4,
+        ph: 6.1,
+        tds: 290,
+        ec: 270,
+        salinitet: 0.16,
+        orp: 275,
+        napomena: 'Početno demo mjerenje.',
+        kreiranAt: '2026-05-16T10:00:00.000Z',
 
 
     },

@@ -55,6 +55,18 @@ export const mjerenja = [
         napomena: 'Početno demo mjerenje.',
         kreiranAt: '2026-05-16T10:00:00.000Z',
 
+        id: 'DEMO-005',
+        datum: '2026-05-17',
+        temperatura: 23.4,
+        ph: 7.3,
+        tds: 270,
+        ec: 270,
+        salinitet: 0.16,
+        orp: 275,
+        napomena: 'Početno demo mjerenje.',
+        kreiranAt: '2026-05-17T10:00:00.000Z',
+
+
 
     },
 ]
